@@ -158,6 +158,24 @@
 			productReference = 2AB7ACD01D5352EF00A5F64A /* Host.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		2AE806651CFDDE3200FDDB2F /* Host */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AB7ACD71D5352EF00A5F64A /* Build configuration list for PBXNativeTarget "Host macOS" */;
+			buildPhases = (
+				2AB7ACCB1D5352EF00A5F64A /* Sources */,
+				2AB7ACCC1D5352EF00A5F64A /* Frameworks */,
+				2AB7ACCD1D5352EF00A5F64A /* Headers */,
+				2AB7ACCE1D5352EF00A5F64A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Host macOS";
+			productName = "Host macOS";
+			productReference = 2AB7ACD01D5352EF00A5F64A /* Host.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		2AE806651CFDDE3200FDDB2F /* Host iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2AE8067A1CFDDE3200FDDB2F /* Build configuration list for PBXNativeTarget "Host iOS" */;
@@ -335,6 +353,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.empiricalmagic.Host-macOS";
+				PRODUCT_NAME = Host;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
